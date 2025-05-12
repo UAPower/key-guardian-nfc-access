@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Кольори для статусів ключів
+				success: {
+					DEFAULT: 'hsl(143, 85%, 39%)',
+					foreground: 'hsl(0, 0%, 100%)'
+				},
+				warning: {
+					DEFAULT: 'hsl(45, 100%, 50%)',
+					foreground: 'hsl(0, 0%, 100%)'
+				},
+				info: {
+					DEFAULT: 'hsl(210, 100%, 50%)',
+					foreground: 'hsl(0, 0%, 100%)'
 				}
 			},
 			borderRadius: {
